@@ -70,5 +70,5 @@ NOTE: Use only one secret for ALL additional scrape configurations.
 
 ## Additional References
 
- * [Prometheus Spec](https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#prometheusspec)
- * [Additional Scrape Configs](https://github.com/zhonglin6666/prometheus-operator/tree/master/example/additional-scrape-configs)
+ * [Prometheus Spec](https://gitlab.300.cn/paas-k8s/prometheus-operator/blob/master/Documentation/api.md#prometheusspec)
+ * [Additional Scrape Configs](https://gitlab.300.cn/paas-k8s/prometheus-operator/tree/master/example/additional-scrape-configs)

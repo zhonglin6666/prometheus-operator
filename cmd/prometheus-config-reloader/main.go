@@ -20,7 +20,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zhonglin6666/prometheus-operator/pkg/version"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/version"
 
 	"github.com/go-kit/kit/log"
 	"github.com/improbable-eng/thanos/pkg/reloader"

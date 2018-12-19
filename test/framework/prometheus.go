@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	"github.com/zhonglin6666/prometheus-operator/pkg/prometheus"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/prometheus"
 	"github.com/pkg/errors"
 )
 

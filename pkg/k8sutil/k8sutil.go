@@ -23,7 +23,7 @@ import (
 	"time"
 
 	crdutils "github.com/ant31/crd-validation/pkg"
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
 	version "github.com/hashicorp/go-version"
 	"github.com/pkg/errors"
 	"k8s.io/api/core/v1"

@@ -122,7 +122,7 @@ kubectl delete --ignore-not-found customresourcedefinitions \
 ### Testing
 
 > Ensure that you're running tests in the following path:
-> `$GOPATH/src/github.com/zhonglin6666/prometheus-operator` as tests expect paths to
+> `$GOPATH/src/gitlab.300.cn/paas-k8s/prometheus-operator` as tests expect paths to
 > match. If you're working from a fork, just add the forked repo as a remote and
 > pull against your local coreos checkout before running tests.
 

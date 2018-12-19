@@ -27,12 +27,12 @@ import (
 	"strings"
 	"syscall"
 
-	alertmanagercontroller "github.com/zhonglin6666/prometheus-operator/pkg/alertmanager"
-	"github.com/zhonglin6666/prometheus-operator/pkg/api"
-	monitoring "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring"
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	prometheuscontroller "github.com/zhonglin6666/prometheus-operator/pkg/prometheus"
-	"github.com/zhonglin6666/prometheus-operator/pkg/version"
+	alertmanagercontroller "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/alertmanager"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/api"
+	monitoring "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	prometheuscontroller "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/prometheus"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/version"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

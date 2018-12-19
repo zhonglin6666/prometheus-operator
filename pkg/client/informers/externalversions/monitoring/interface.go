@@ -17,8 +17,8 @@
 package monitoring
 
 import (
-	internalinterfaces "github.com/zhonglin6666/prometheus-operator/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/zhonglin6666/prometheus-operator/pkg/client/informers/externalversions/monitoring/v1"
+	internalinterfaces "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/informers/externalversions/monitoring/v1"
 )
 
 // Interface provides access to each of this group's versions.

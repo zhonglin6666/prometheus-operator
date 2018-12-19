@@ -35,10 +35,10 @@ type CrdKinds struct {
 
 var DefaultCrdKinds = CrdKinds{
 	KindsString:    "",
-	Prometheus:     CrdKind{Plural: PrometheusName, Kind: PrometheusesKind, SpecName: "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Prometheus"},
-	ServiceMonitor: CrdKind{Plural: ServiceMonitorName, Kind: ServiceMonitorsKind, SpecName: "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor"},
-	Alertmanager:   CrdKind{Plural: AlertmanagerName, Kind: AlertmanagersKind, SpecName: "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager"},
-	PrometheusRule: CrdKind{Plural: PrometheusRuleName, Kind: PrometheusRuleKind, SpecName: "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule"},
+	Prometheus:     CrdKind{Plural: PrometheusName, Kind: PrometheusesKind, SpecName: "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Prometheus"},
+	ServiceMonitor: CrdKind{Plural: ServiceMonitorName, Kind: ServiceMonitorsKind, SpecName: "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor"},
+	Alertmanager:   CrdKind{Plural: AlertmanagerName, Kind: AlertmanagersKind, SpecName: "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager"},
+	PrometheusRule: CrdKind{Plural: PrometheusRuleName, Kind: PrometheusRuleKind, SpecName: "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule"},
 }
 
 // Implement the flag.Value interface

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	monitoringclient "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
 	"github.com/pkg/errors"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	monitoringclient "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
@@ -21,7 +21,7 @@ const (
 	intevalEndpoints = "30s"
 )
 
-type client struct {
+type Client struct {
 	KubeClient     kubernetes.Interface
 	MonClientV1    monitoringclient.MonitoringV1Interface
 	HTTPClient     *http.Client
@@ -30,7 +30,7 @@ type client struct {
 }
 
 // New setups a test framework and returns it.
-func New(kubeconfig string) (*client, error) {
+func New(kubeconfig string) (*Client, error) {
 	config, err := clientcmd.BuildConfigFromFlags("", kubeconfig)
 	if err != nil {
 		return nil, errors.Wrap(err, "build config from flags failed")
@@ -51,7 +51,7 @@ func New(kubeconfig string) (*client, error) {
 		return nil, errors.Wrap(err, "creating v1 monitoring client failed")
 	}
 
-	f := &client{
+	f := &Client{
 		MasterHost:     config.Host,
 		KubeClient:     cli,
 		MonClientV1:    mClientV1,
@@ -62,15 +62,15 @@ func New(kubeconfig string) (*client, error) {
 	return f, nil
 }
 
-func (c *client) GetServiceMonitor(namespace, name string) (result *v1.ServiceMonitor, err error) {
+func (c *Client) GetServiceMonitor(namespace, name string) (result *v1.ServiceMonitor, err error) {
 	return c.MonClientV1.ServiceMonitors(namespace).Get(name, metav1.GetOptions{})
 }
 
-func (c *client) DeleteServiceMonitor(namespace, name string) error {
+func (c *Client) DeleteServiceMonitor(namespace, name string) error {
 	return c.MonClientV1.ServiceMonitors(namespace).Delete(name, &metav1.DeleteOptions{})
 }
 
-func (c *client) CreateServiceMonitor(namespace, name string) (result *v1.ServiceMonitor, err error) {
+func (c *Client) CreateServiceMonitor(namespace, name string) (result *v1.ServiceMonitor, err error) {
 	endpoints := make([]v1.Endpoint, 0)
 	ep := v1.Endpoint{
 		// TODO

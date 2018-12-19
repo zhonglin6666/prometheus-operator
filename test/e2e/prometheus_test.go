@@ -34,10 +34,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/zhonglin6666/prometheus-operator/pkg/alertmanager"
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	"github.com/zhonglin6666/prometheus-operator/pkg/prometheus"
-	testFramework "github.com/zhonglin6666/prometheus-operator/test/framework"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/alertmanager"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/prometheus"
+	testFramework "gitlab.300.cn/paas-k8s/prometheus-operator/test/framework"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/kylelemons/godebug/pretty"
@@ -755,7 +755,7 @@ func testPromOnlyUpdatedOnRelevantChanges(t *testing.T) {
 
 	// Adding an annotation to Prometheus lead to high CPU usage in the past
 	// updating the Prometheus StatefulSet in a loop (See
-	// https://github.com/zhonglin6666/prometheus-operator/issues/1659). Added here to
+	// https://gitlab.300.cn/paas-k8s/prometheus-operator/issues/1659). Added here to
 	// prevent a regression.
 	prometheus.Annotations["test-annotation"] = "test-value"
 

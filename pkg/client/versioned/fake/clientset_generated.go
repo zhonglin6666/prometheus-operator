@@ -17,9 +17,9 @@
 package fake
 
 import (
-	clientset "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned"
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
-	fakemonitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned/typed/monitoring/v1/fake"
+	clientset "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
+	fakemonitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned/typed/monitoring/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

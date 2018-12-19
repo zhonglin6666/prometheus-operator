@@ -17,7 +17,7 @@
 package v1
 
 import (
-	internalinterfaces "github.com/zhonglin6666/prometheus-operator/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

@@ -27,7 +27,7 @@ import (
 	"gopkg.in/yaml.v2"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
 )
 
 var (

@@ -56,7 +56,7 @@ func TestConvertFullSchematoJsonProp(t *testing.T) {
 					Items: &spec.SchemaOrArray{
 						Schema: &spec.Schema{
 							SchemaProps: spec.SchemaProps{
-								Ref: OpenAPIRefCallBack("github.com/zhonglin6666/prometheus-operator/pkg/client/monitoring/v1.Alertmanager"),
+								Ref: OpenAPIRefCallBack("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/monitoring/v1.Alertmanager"),
 							},
 						},
 					},

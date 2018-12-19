@@ -17,7 +17,7 @@
 package versioned
 
 import (
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

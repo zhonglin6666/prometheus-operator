@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	"github.com/blang/semver"
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	"github.com/zhonglin6666/prometheus-operator/pkg/k8sutil"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/k8sutil"
 	"github.com/pkg/errors"
 )
 
@@ -181,7 +181,7 @@ func makeStatefulSetService(p *monitoringv1.Alertmanager, config Config) *v1.Ser
 
 func makeStatefulSetSpec(a *monitoringv1.Alertmanager, config Config) (*appsv1.StatefulSetSpec, error) {
 	// Before editing 'a' create deep copy, to prevent side effects. For more
-	// details see https://github.com/zhonglin6666/prometheus-operator/issues/1659
+	// details see https://gitlab.300.cn/paas-k8s/prometheus-operator/issues/1659
 	a = a.DeepCopy()
 
 	// Version is used by default.

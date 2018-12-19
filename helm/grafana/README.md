@@ -119,4 +119,4 @@ serverDashboardFiles:
 ```
 
 In both cases, if you're exporting the jsons directly from Grafana, you'll want to wrap it in `{"dashboard": {}}`
-as stated in [Grafana Watcher's README](https://github.com/zhonglin6666/prometheus-operator/tree/master/contrib/grafana-watcher).
+as stated in [Grafana Watcher's README](https://gitlab.300.cn/paas-k8s/prometheus-operator/tree/master/contrib/grafana-watcher).

@@ -8,7 +8,7 @@ The content of this project is written in [jsonnet](http://jsonnet.org/). This p
 
 Components included in this package:
 
-* The [Prometheus Operator](https://github.com/zhonglin6666/prometheus-operator)
+* The [Prometheus Operator](https://gitlab.300.cn/paas-k8s/prometheus-operator)
 * Highly available [Prometheus](https://prometheus.io/)
 * Highly available [Alertmanager](https://github.com/prometheus/alertmanager)
 * [Prometheus node-exporter](https://github.com/prometheus/node_exporter)
@@ -129,12 +129,12 @@ Install this library in your own project with [jsonnet-bundler](https://github.c
 $ mkdir my-kube-prometheus; cd my-kube-prometheus
 $ jb init  # Creates the initial/empty `jsonnetfile.json`
 # Install the kube-prometheus dependency
-$ jb install github.com/zhonglin6666/prometheus-operator/contrib/kube-prometheus/jsonnet/kube-prometheus  # Creates `vendor/` & `jsonnetfile.lock.json`, and fills in `jsonnetfile.json`
+$ jb install gitlab.300.cn/paas-k8s/prometheus-operator/contrib/kube-prometheus/jsonnet/kube-prometheus  # Creates `vendor/` & `jsonnetfile.lock.json`, and fills in `jsonnetfile.json`
 ```
 
 > `jb` can be installed with `go get github.com/jsonnet-bundler/jsonnet-bundler/cmd/jb`
 
-> An e.g. of how to install a given version of this library: `jb install github.com/zhonglin6666/prometheus-operator/contrib/kube-prometheus/jsonnet/kube-prometheus/@v0.22.0`
+> An e.g. of how to install a given version of this library: `jb install gitlab.300.cn/paas-k8s/prometheus-operator/contrib/kube-prometheus/jsonnet/kube-prometheus/@v0.22.0`
 
 In order to update the kube-prometheus dependency, simply use the jsonnet-bundler update functionality:
 `$ jb update`
@@ -216,7 +216,7 @@ docker run \
 	--rm \
 	-v `pwd`:`pwd` \
 	--workdir `pwd` \
-	po-jsonnet jb install github.com/zhonglin6666/prometheus-operator/contrib/kube-prometheus/jsonnet/kube-prometheus
+	po-jsonnet jb install gitlab.300.cn/paas-k8s/prometheus-operator/contrib/kube-prometheus/jsonnet/kube-prometheus
 
 docker run \
 	--rm \

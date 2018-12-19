@@ -28,38 +28,38 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.APIServerConfig":       schema_pkg_apis_monitoring_v1_APIServerConfig(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertingSpec":          schema_pkg_apis_monitoring_v1_AlertingSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager":          schema_pkg_apis_monitoring_v1_Alertmanager(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerEndpoints": schema_pkg_apis_monitoring_v1_AlertmanagerEndpoints(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerList":      schema_pkg_apis_monitoring_v1_AlertmanagerList(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerSpec":      schema_pkg_apis_monitoring_v1_AlertmanagerSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerStatus":    schema_pkg_apis_monitoring_v1_AlertmanagerStatus(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth":             schema_pkg_apis_monitoring_v1_BasicAuth(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Endpoint":              schema_pkg_apis_monitoring_v1_Endpoint(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.NamespaceSelector":     schema_pkg_apis_monitoring_v1_NamespaceSelector(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Prometheus":            schema_pkg_apis_monitoring_v1_Prometheus(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusList":        schema_pkg_apis_monitoring_v1_PrometheusList(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule":        schema_pkg_apis_monitoring_v1_PrometheusRule(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleList":    schema_pkg_apis_monitoring_v1_PrometheusRuleList(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleSpec":    schema_pkg_apis_monitoring_v1_PrometheusRuleSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusSpec":        schema_pkg_apis_monitoring_v1_PrometheusSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusStatus":      schema_pkg_apis_monitoring_v1_PrometheusStatus(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.QuerySpec":             schema_pkg_apis_monitoring_v1_QuerySpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.QueueConfig":           schema_pkg_apis_monitoring_v1_QueueConfig(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig":         schema_pkg_apis_monitoring_v1_RelabelConfig(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RemoteReadSpec":        schema_pkg_apis_monitoring_v1_RemoteReadSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RemoteWriteSpec":       schema_pkg_apis_monitoring_v1_RemoteWriteSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Rule":                  schema_pkg_apis_monitoring_v1_Rule(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RuleGroup":             schema_pkg_apis_monitoring_v1_RuleGroup(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor":        schema_pkg_apis_monitoring_v1_ServiceMonitor(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorList":    schema_pkg_apis_monitoring_v1_ServiceMonitorList(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorSpec":    schema_pkg_apis_monitoring_v1_ServiceMonitorSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec":           schema_pkg_apis_monitoring_v1_StorageSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig":             schema_pkg_apis_monitoring_v1_TLSConfig(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosGCSSpec":         schema_pkg_apis_monitoring_v1_ThanosGCSSpec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosS3Spec":          schema_pkg_apis_monitoring_v1_ThanosS3Spec(ref),
-		"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosSpec":            schema_pkg_apis_monitoring_v1_ThanosSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.APIServerConfig":       schema_pkg_apis_monitoring_v1_APIServerConfig(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertingSpec":          schema_pkg_apis_monitoring_v1_AlertingSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager":          schema_pkg_apis_monitoring_v1_Alertmanager(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerEndpoints": schema_pkg_apis_monitoring_v1_AlertmanagerEndpoints(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerList":      schema_pkg_apis_monitoring_v1_AlertmanagerList(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerSpec":      schema_pkg_apis_monitoring_v1_AlertmanagerSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerStatus":    schema_pkg_apis_monitoring_v1_AlertmanagerStatus(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth":             schema_pkg_apis_monitoring_v1_BasicAuth(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Endpoint":              schema_pkg_apis_monitoring_v1_Endpoint(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.NamespaceSelector":     schema_pkg_apis_monitoring_v1_NamespaceSelector(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Prometheus":            schema_pkg_apis_monitoring_v1_Prometheus(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusList":        schema_pkg_apis_monitoring_v1_PrometheusList(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule":        schema_pkg_apis_monitoring_v1_PrometheusRule(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleList":    schema_pkg_apis_monitoring_v1_PrometheusRuleList(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleSpec":    schema_pkg_apis_monitoring_v1_PrometheusRuleSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusSpec":        schema_pkg_apis_monitoring_v1_PrometheusSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusStatus":      schema_pkg_apis_monitoring_v1_PrometheusStatus(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.QuerySpec":             schema_pkg_apis_monitoring_v1_QuerySpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.QueueConfig":           schema_pkg_apis_monitoring_v1_QueueConfig(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig":         schema_pkg_apis_monitoring_v1_RelabelConfig(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RemoteReadSpec":        schema_pkg_apis_monitoring_v1_RemoteReadSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RemoteWriteSpec":       schema_pkg_apis_monitoring_v1_RemoteWriteSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Rule":                  schema_pkg_apis_monitoring_v1_Rule(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RuleGroup":             schema_pkg_apis_monitoring_v1_RuleGroup(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor":        schema_pkg_apis_monitoring_v1_ServiceMonitor(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorList":    schema_pkg_apis_monitoring_v1_ServiceMonitorList(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorSpec":    schema_pkg_apis_monitoring_v1_ServiceMonitorSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec":           schema_pkg_apis_monitoring_v1_StorageSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig":             schema_pkg_apis_monitoring_v1_TLSConfig(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosGCSSpec":         schema_pkg_apis_monitoring_v1_ThanosGCSSpec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosS3Spec":          schema_pkg_apis_monitoring_v1_ThanosS3Spec(ref),
+		"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosSpec":            schema_pkg_apis_monitoring_v1_ThanosSpec(ref),
 		"k8s.io/api/core/v1.AWSElasticBlockStoreVolumeSource":                                schema_k8sio_api_core_v1_AWSElasticBlockStoreVolumeSource(ref),
 		"k8s.io/api/core/v1.Affinity":                                    schema_k8sio_api_core_v1_Affinity(ref),
 		"k8s.io/api/core/v1.AttachedVolume":                              schema_k8sio_api_core_v1_AttachedVolume(ref),
@@ -312,7 +312,7 @@ func schema_pkg_apis_monitoring_v1_APIServerConfig(ref common.ReferenceCallback)
 					"basicAuth": {
 						SchemaProps: spec.SchemaProps{
 							Description: "BasicAuth allow an endpoint to authenticate over basic authentication",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
 						},
 					},
 					"bearerToken": {
@@ -332,7 +332,7 @@ func schema_pkg_apis_monitoring_v1_APIServerConfig(ref common.ReferenceCallback)
 					"tlsConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "TLS Config to use for accessing apiserver.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
 						},
 					},
 				},
@@ -340,7 +340,7 @@ func schema_pkg_apis_monitoring_v1_APIServerConfig(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"},
 	}
 }
 
@@ -357,7 +357,7 @@ func schema_pkg_apis_monitoring_v1_AlertingSpec(ref common.ReferenceCallback) co
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerEndpoints"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerEndpoints"),
 									},
 								},
 							},
@@ -368,7 +368,7 @@ func schema_pkg_apis_monitoring_v1_AlertingSpec(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerEndpoints"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerEndpoints"},
 	}
 }
 
@@ -395,13 +395,13 @@ func schema_pkg_apis_monitoring_v1_Alertmanager(ref common.ReferenceCallback) co
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the desired behavior of the Alertmanager cluster. More info: https://github.com/kubernetes/community/blob/master/contributors/devel/api-conventions.md#spec-and-status",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Most recent observed status of the Alertmanager cluster. Read-only. Not included when requesting from the apiserver, only from the Prometheus Operator API itself. More info: https://github.com/kubernetes/community/blob/master/contributors/devel/api-conventions.md#spec-and-status",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerStatus"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerStatus"),
 						},
 					},
 				},
@@ -409,7 +409,7 @@ func schema_pkg_apis_monitoring_v1_Alertmanager(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerSpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerStatus"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerSpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertmanagerStatus"},
 	}
 }
 
@@ -456,7 +456,7 @@ func schema_pkg_apis_monitoring_v1_AlertmanagerEndpoints(ref common.ReferenceCal
 					"tlsConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "TLS Config to use for alertmanager connection.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
 						},
 					},
 					"bearerTokenFile": {
@@ -471,7 +471,7 @@ func schema_pkg_apis_monitoring_v1_AlertmanagerEndpoints(ref common.ReferenceCal
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig", "k8s.io/apimachinery/pkg/util/intstr.IntOrString"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig", "k8s.io/apimachinery/pkg/util/intstr.IntOrString"},
 	}
 }
 
@@ -508,7 +508,7 @@ func schema_pkg_apis_monitoring_v1_AlertmanagerList(ref common.ReferenceCallback
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager"),
 									},
 								},
 							},
@@ -519,7 +519,7 @@ func schema_pkg_apis_monitoring_v1_AlertmanagerList(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Alertmanager", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -628,7 +628,7 @@ func schema_pkg_apis_monitoring_v1_AlertmanagerSpec(ref common.ReferenceCallback
 					"storage": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Storage is the definition of how storage will be used by the Alertmanager instances.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec"),
 						},
 					},
 					"externalUrl": {
@@ -749,7 +749,7 @@ func schema_pkg_apis_monitoring_v1_AlertmanagerSpec(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec", "k8s.io/api/core/v1.Affinity", "k8s.io/api/core/v1.Container", "k8s.io/api/core/v1.LocalObjectReference", "k8s.io/api/core/v1.PodSecurityContext", "k8s.io/api/core/v1.ResourceRequirements", "k8s.io/api/core/v1.Toleration", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec", "k8s.io/api/core/v1.Affinity", "k8s.io/api/core/v1.Container", "k8s.io/api/core/v1.LocalObjectReference", "k8s.io/api/core/v1.PodSecurityContext", "k8s.io/api/core/v1.ResourceRequirements", "k8s.io/api/core/v1.Toleration", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -899,7 +899,7 @@ func schema_pkg_apis_monitoring_v1_Endpoint(ref common.ReferenceCallback) common
 					"tlsConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "TLS configuration to use when scraping the endpoint",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
 						},
 					},
 					"bearerTokenFile": {
@@ -919,7 +919,7 @@ func schema_pkg_apis_monitoring_v1_Endpoint(ref common.ReferenceCallback) common
 					"basicAuth": {
 						SchemaProps: spec.SchemaProps{
 							Description: "BasicAuth allow an endpoint to authenticate over basic authentication More info: https://prometheus.io/docs/operating/configuration/#endpoints",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
 						},
 					},
 					"metricRelabelings": {
@@ -929,7 +929,7 @@ func schema_pkg_apis_monitoring_v1_Endpoint(ref common.ReferenceCallback) common
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig"),
 									},
 								},
 							},
@@ -942,7 +942,7 @@ func schema_pkg_apis_monitoring_v1_Endpoint(ref common.ReferenceCallback) common
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig"),
 									},
 								},
 							},
@@ -959,7 +959,7 @@ func schema_pkg_apis_monitoring_v1_Endpoint(ref common.ReferenceCallback) common
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig", "k8s.io/apimachinery/pkg/util/intstr.IntOrString"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig", "k8s.io/apimachinery/pkg/util/intstr.IntOrString"},
 	}
 }
 
@@ -1020,13 +1020,13 @@ func schema_pkg_apis_monitoring_v1_Prometheus(ref common.ReferenceCallback) comm
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the desired behavior of the Prometheus cluster. More info: https://github.com/kubernetes/community/blob/master/contributors/devel/api-conventions.md#spec-and-status",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Most recent observed status of the Prometheus cluster. Read-only. Not included when requesting from the apiserver, only from the Prometheus Operator API itself. More info: https://github.com/kubernetes/community/blob/master/contributors/devel/api-conventions.md#spec-and-status",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusStatus"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusStatus"),
 						},
 					},
 				},
@@ -1034,7 +1034,7 @@ func schema_pkg_apis_monitoring_v1_Prometheus(ref common.ReferenceCallback) comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusSpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusStatus"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusSpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusStatus"},
 	}
 }
 
@@ -1071,7 +1071,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusList(ref common.ReferenceCallback) 
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Prometheus"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Prometheus"),
 									},
 								},
 							},
@@ -1082,7 +1082,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusList(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Prometheus", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Prometheus", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -1115,7 +1115,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusRule(ref common.ReferenceCallback) 
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of desired alerting rule definitions for Prometheus.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleSpec"),
 						},
 					},
 				},
@@ -1123,7 +1123,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusRule(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRuleSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -1160,7 +1160,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusRuleList(ref common.ReferenceCallba
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule"),
 									},
 								},
 							},
@@ -1171,7 +1171,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusRuleList(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.PrometheusRule", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -1188,7 +1188,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusRuleSpec(ref common.ReferenceCallba
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RuleGroup"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RuleGroup"),
 									},
 								},
 							},
@@ -1198,7 +1198,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusRuleSpec(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RuleGroup"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RuleGroup"},
 	}
 }
 
@@ -1340,13 +1340,13 @@ func schema_pkg_apis_monitoring_v1_PrometheusSpec(ref common.ReferenceCallback) 
 					"query": {
 						SchemaProps: spec.SchemaProps{
 							Description: "QuerySpec defines the query command line flags when starting Prometheus.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.QuerySpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.QuerySpec"),
 						},
 					},
 					"storage": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Storage spec to specify how storage shall be used.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec"),
 						},
 					},
 					"ruleSelector": {
@@ -1364,7 +1364,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusSpec(ref common.ReferenceCallback) 
 					"alerting": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Define details regarding alerting.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertingSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertingSpec"),
 						},
 					},
 					"resources": {
@@ -1448,7 +1448,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusSpec(ref common.ReferenceCallback) 
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RemoteWriteSpec"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RemoteWriteSpec"),
 									},
 								},
 							},
@@ -1461,7 +1461,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusSpec(ref common.ReferenceCallback) 
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RemoteReadSpec"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RemoteReadSpec"),
 									},
 								},
 							},
@@ -1514,13 +1514,13 @@ func schema_pkg_apis_monitoring_v1_PrometheusSpec(ref common.ReferenceCallback) 
 					"apiserverConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "APIServerConfig allows specifying a host and auth methods to access apiserver. If left empty, Prometheus is assumed to run inside of the cluster and will discover API servers automatically and use the pod's CA certificate and bearer token file at /var/run/secrets/kubernetes.io/serviceaccount/.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.APIServerConfig"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.APIServerConfig"),
 						},
 					},
 					"thanos": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Thanos configuration allows configuring various aspects of a Prometheus server in a Thanos environment.\n\nThis section is experimental, it may change significantly without deprecation notice in any release.\n\nThis is experimental and may change significantly without backward compatibility in any release.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosSpec"),
 						},
 					},
 					"priorityClassName": {
@@ -1534,7 +1534,7 @@ func schema_pkg_apis_monitoring_v1_PrometheusSpec(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.APIServerConfig", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.AlertingSpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.QuerySpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RemoteReadSpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RemoteWriteSpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosSpec", "k8s.io/api/core/v1.Affinity", "k8s.io/api/core/v1.Container", "k8s.io/api/core/v1.LocalObjectReference", "k8s.io/api/core/v1.PodSecurityContext", "k8s.io/api/core/v1.ResourceRequirements", "k8s.io/api/core/v1.SecretKeySelector", "k8s.io/api/core/v1.Toleration", "k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.APIServerConfig", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.AlertingSpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.QuerySpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RemoteReadSpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RemoteWriteSpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.StorageSpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosSpec", "k8s.io/api/core/v1.Affinity", "k8s.io/api/core/v1.Container", "k8s.io/api/core/v1.LocalObjectReference", "k8s.io/api/core/v1.PodSecurityContext", "k8s.io/api/core/v1.ResourceRequirements", "k8s.io/api/core/v1.SecretKeySelector", "k8s.io/api/core/v1.Toleration", "k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -1796,7 +1796,7 @@ func schema_pkg_apis_monitoring_v1_RemoteReadSpec(ref common.ReferenceCallback) 
 					"basicAuth": {
 						SchemaProps: spec.SchemaProps{
 							Description: "BasicAuth for the URL.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
 						},
 					},
 					"bearerToken": {
@@ -1816,7 +1816,7 @@ func schema_pkg_apis_monitoring_v1_RemoteReadSpec(ref common.ReferenceCallback) 
 					"tlsConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "TLS Config to use for remote read.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
 						},
 					},
 					"proxyUrl": {
@@ -1831,7 +1831,7 @@ func schema_pkg_apis_monitoring_v1_RemoteReadSpec(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"},
 	}
 }
 
@@ -1862,7 +1862,7 @@ func schema_pkg_apis_monitoring_v1_RemoteWriteSpec(ref common.ReferenceCallback)
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig"),
 									},
 								},
 							},
@@ -1871,7 +1871,7 @@ func schema_pkg_apis_monitoring_v1_RemoteWriteSpec(ref common.ReferenceCallback)
 					"basicAuth": {
 						SchemaProps: spec.SchemaProps{
 							Description: "BasicAuth for the URL.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth"),
 						},
 					},
 					"bearerToken": {
@@ -1891,7 +1891,7 @@ func schema_pkg_apis_monitoring_v1_RemoteWriteSpec(ref common.ReferenceCallback)
 					"tlsConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "TLS Config to use for remote write.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"),
 						},
 					},
 					"proxyUrl": {
@@ -1904,7 +1904,7 @@ func schema_pkg_apis_monitoring_v1_RemoteWriteSpec(ref common.ReferenceCallback)
 					"queueConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "QueueConfig allows tuning of the remote write queue parameters.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.QueueConfig"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.QueueConfig"),
 						},
 					},
 				},
@@ -1912,7 +1912,7 @@ func schema_pkg_apis_monitoring_v1_RemoteWriteSpec(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.QueueConfig", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.BasicAuth", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.QueueConfig", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.RelabelConfig", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.TLSConfig"},
 	}
 }
 
@@ -2004,7 +2004,7 @@ func schema_pkg_apis_monitoring_v1_RuleGroup(ref common.ReferenceCallback) commo
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Rule"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Rule"),
 									},
 								},
 							},
@@ -2015,7 +2015,7 @@ func schema_pkg_apis_monitoring_v1_RuleGroup(ref common.ReferenceCallback) commo
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Rule"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Rule"},
 	}
 }
 
@@ -2042,7 +2042,7 @@ func schema_pkg_apis_monitoring_v1_ServiceMonitor(ref common.ReferenceCallback) 
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of desired Service selection for target discrovery by Prometheus.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorSpec"),
 						},
 					},
 				},
@@ -2050,7 +2050,7 @@ func schema_pkg_apis_monitoring_v1_ServiceMonitor(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorSpec"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitorSpec"},
 	}
 }
 
@@ -2087,7 +2087,7 @@ func schema_pkg_apis_monitoring_v1_ServiceMonitorList(ref common.ReferenceCallba
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor"),
 									},
 								},
 							},
@@ -2098,7 +2098,7 @@ func schema_pkg_apis_monitoring_v1_ServiceMonitorList(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ServiceMonitor", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2150,7 +2150,7 @@ func schema_pkg_apis_monitoring_v1_ServiceMonitorSpec(ref common.ReferenceCallba
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Endpoint"),
+										Ref: ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Endpoint"),
 									},
 								},
 							},
@@ -2165,7 +2165,7 @@ func schema_pkg_apis_monitoring_v1_ServiceMonitorSpec(ref common.ReferenceCallba
 					"namespaceSelector": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Selector to select which namespaces the Endpoints objects are discovered from.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.NamespaceSelector"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.NamespaceSelector"),
 						},
 					},
 					"sampleLimit": {
@@ -2180,7 +2180,7 @@ func schema_pkg_apis_monitoring_v1_ServiceMonitorSpec(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.Endpoint", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.NamespaceSelector", "k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.Endpoint", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.NamespaceSelector", "k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector"},
 	}
 }
 
@@ -2396,20 +2396,20 @@ func schema_pkg_apis_monitoring_v1_ThanosSpec(ref common.ReferenceCallback) comm
 					"gcs": {
 						SchemaProps: spec.SchemaProps{
 							Description: "GCS configures use of GCS in Thanos.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosGCSSpec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosGCSSpec"),
 						},
 					},
 					"s3": {
 						SchemaProps: spec.SchemaProps{
 							Description: "S3 configures use of S3 in Thanos.",
-							Ref:         ref("github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosS3Spec"),
+							Ref:         ref("gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosS3Spec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosGCSSpec", "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1.ThanosS3Spec", "k8s.io/api/core/v1.ResourceRequirements"},
+			"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosGCSSpec", "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1.ThanosS3Spec", "k8s.io/api/core/v1.ResourceRequirements"},
 	}
 }
 

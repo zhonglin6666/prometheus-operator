@@ -188,7 +188,7 @@ global:
   #  - name: "image-pull-secret"
 
 ## Alertmanager StorageSpec for persistent data
-## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/user-guides/storage.md
+## Ref: https://gitlab.300.cn/paas-k8s/prometheus-operator/blob/master/Documentation/user-guides/storage.md
 ##
 storageSpec: {}
 #  volumeClaimTemplate:

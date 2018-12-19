@@ -17,7 +17,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zhonglin6666/prometheus-operator/pkg/prometheus"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/prometheus"
 )
 
 func printCompatMatrixDocs() {

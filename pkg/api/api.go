@@ -24,10 +24,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	monitoringclient "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned"
-	"github.com/zhonglin6666/prometheus-operator/pkg/k8sutil"
-	"github.com/zhonglin6666/prometheus-operator/pkg/prometheus"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	monitoringclient "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/k8sutil"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/prometheus"
 )
 
 type API struct {

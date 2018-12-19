@@ -17,7 +17,7 @@
 package fake
 
 import (
-	monitoring_v1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	monitoring_v1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

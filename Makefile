@@ -1,6 +1,6 @@
 SHELL=/bin/bash -o pipefail
 
-GO_PKG=github.com/zhonglin6666/prometheus-operator
+GO_PKG=gitlab.300.cn/paas-k8s/prometheus-operator
 REPO?=quay.io/coreos/prometheus-operator
 REPO_PROMETHEUS_CONFIG_RELOADER?=quay.io/coreos/prometheus-config-reloader
 TAG?=$(shell git rev-parse --short HEAD)

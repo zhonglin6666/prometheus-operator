@@ -19,7 +19,7 @@ package externalversions
 import (
 	"fmt"
 
-	v1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	v1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

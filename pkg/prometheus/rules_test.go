@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
 
 	"k8s.io/api/core/v1"
 )

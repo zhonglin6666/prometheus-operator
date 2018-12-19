@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	operatorFramework "github.com/zhonglin6666/prometheus-operator/test/framework"
+	operatorFramework "gitlab.300.cn/paas-k8s/prometheus-operator/test/framework"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/fields"

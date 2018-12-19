@@ -1,5 +1,5 @@
 repository:
-    path: github.com/zhonglin6666/prometheus-operator
+    path: gitlab.300.cn/paas-k8s/prometheus-operator
 build:
     flags: -a -tags netgo
     binaries:

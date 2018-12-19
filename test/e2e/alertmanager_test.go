@@ -30,9 +30,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/zhonglin6666/prometheus-operator/pkg/alertmanager"
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	testFramework "github.com/zhonglin6666/prometheus-operator/test/framework"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/alertmanager"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	testFramework "gitlab.300.cn/paas-k8s/prometheus-operator/test/framework"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -1,6 +1,6 @@
 # prometheus
 
-Installs a [Prometheus](https://prometheus.io) instance using the CoreOS [prometheus-operator](https://github.com/zhonglin6666/prometheus-operator).
+Installs a [Prometheus](https://prometheus.io) instance using the CoreOS [prometheus-operator](https://gitlab.300.cn/paas-k8s/prometheus-operator).
 
 ## TL;DR;
 
@@ -15,7 +15,7 @@ This chart bootstraps a [Prometheus](https://github.com/prometheus/prometheus) d
 
 ## Prerequisites
   - Kubernetes 1.4+ with Beta APIs & ThirdPartyResources enabled
-  - [prometheus-operator](https://github.com/zhonglin6666/prometheus-operator/blob/master/helm/prometheus-operator/README.md).
+  - [prometheus-operator](https://gitlab.300.cn/paas-k8s/prometheus-operator/blob/master/helm/prometheus-operator/README.md).
 
 ## Installing the Chart
 

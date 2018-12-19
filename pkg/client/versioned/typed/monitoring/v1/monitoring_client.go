@@ -17,8 +17,8 @@
 package v1
 
 import (
-	v1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	"github.com/zhonglin6666/prometheus-operator/pkg/client/versioned/scheme"
+	v1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	"gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )

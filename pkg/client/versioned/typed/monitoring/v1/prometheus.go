@@ -17,8 +17,8 @@
 package v1
 
 import (
-	v1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
-	scheme "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned/scheme"
+	v1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
+	scheme "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/client/versioned/scheme"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

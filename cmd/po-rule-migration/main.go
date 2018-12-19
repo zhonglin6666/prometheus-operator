@@ -23,8 +23,8 @@ import (
 	"path"
 	"path/filepath"
 
-	monitoring "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring"
-	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	monitoring "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring"
+	monitoringv1 "gitlab.300.cn/paas-k8s/prometheus-operator/pkg/apis/monitoring/v1"
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
