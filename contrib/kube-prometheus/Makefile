@@ -17,8 +17,8 @@ generate-in-docker: ../../hack/jsonnet-docker-image
 	docker run \
 	--rm \
 	-u=$(shell id -u $(USER)):$(shell id -g $(USER)) \
-	-v $(shell dirname $(dir $(abspath $(dir $$PWD)))):/go/src/github.com/coreos/prometheus-operator/ \
-	--workdir /go/src/github.com/coreos/prometheus-operator/contrib/kube-prometheus \
+	-v $(shell dirname $(dir $(abspath $(dir $$PWD)))):/go/src/github.com/zhonglin6666/prometheus-operator/ \
+	--workdir /go/src/github.com/zhonglin6666/prometheus-operator/contrib/kube-prometheus \
 	po-jsonnet make generate
 
 generate: manifests **.md
@@ -47,8 +47,8 @@ test-in-docker: ../../hack/jsonnet-docker-image
 	docker run \
 	--rm \
 	-u=$(shell id -u $(USER)):$(shell id -g $(USER)) \
-	-v $(shell dirname $(dir $(abspath $(dir $$PWD)))):/go/src/github.com/coreos/prometheus-operator/ \
-	--workdir /go/src/github.com/coreos/prometheus-operator/contrib/kube-prometheus \
+	-v $(shell dirname $(dir $(abspath $(dir $$PWD)))):/go/src/github.com/zhonglin6666/prometheus-operator/ \
+	--workdir /go/src/github.com/zhonglin6666/prometheus-operator/contrib/kube-prometheus \
 	po-jsonnet make test
 
 $(JB_BINARY):

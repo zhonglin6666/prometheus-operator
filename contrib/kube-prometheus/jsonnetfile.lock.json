@@ -64,7 +64,7 @@
             "name": "prometheus-operator",
             "source": {
                 "git": {
-                    "remote": "https://github.com/coreos/prometheus-operator",
+                    "remote": "https://github.com/zhonglin6666/prometheus-operator",
                     "subdir": "jsonnet/prometheus-operator"
                 }
             },

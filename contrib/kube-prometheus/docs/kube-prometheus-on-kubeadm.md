@@ -89,12 +89,12 @@ Once you complete this guide you will monitor the following:
 
 ## Getting Up and Running Fast with Kube-Prometheus
 
-To help get started more quickly with monitoring Kubernetes clusters, [kube-prometheus](https://github.com/coreos/prometheus-operator/tree/master/contrib/kube-prometheus) was created. It is a collection of manifests including dashboards and alerting rules that can easily be deployed. It utilizes the Prometheus Operator and all the manifests demonstrated in [this guide](../../../Documentation/user-guides/cluster-monitoring.md).
+To help get started more quickly with monitoring Kubernetes clusters, [kube-prometheus](https://github.com/zhonglin6666/prometheus-operator/tree/master/contrib/kube-prometheus) was created. It is a collection of manifests including dashboards and alerting rules that can easily be deployed. It utilizes the Prometheus Operator and all the manifests demonstrated in [this guide](../../../Documentation/user-guides/cluster-monitoring.md).
 
 This section represent a quick installation and is not intended to teach you about all the components. The easiest way to get started is to clone this repository and use the `kube-prometheus` section of the code.
 
 ```
-git clone https://github.com/coreos/prometheus-operator
+git clone https://github.com/zhonglin6666/prometheus-operator
 cd prometheus-operator/contrib/kube-prometheus/
 ```
 

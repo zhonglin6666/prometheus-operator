@@ -1,6 +1,6 @@
 # prometheus-operator
 
-Installs [prometheus-operator](https://github.com/coreos/prometheus-operator) to create/configure/manage Prometheus clusters atop Kubernetes.
+Installs [prometheus-operator](https://github.com/zhonglin6666/prometheus-operator) to create/configure/manage Prometheus clusters atop Kubernetes.
 
 ## TL;DR;
 
@@ -11,7 +11,7 @@ $ helm install coreos/prometheus-operator
 
 ## Introduction
 
-This chart bootstraps a [prometheus-operator](https://github.com/coreos/prometheus-operator) deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
+This chart bootstraps a [prometheus-operator](https://github.com/zhonglin6666/prometheus-operator) deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
 
 ## Prerequisites
   - Kubernetes 1.8+ with Beta APIs

@@ -28,7 +28,7 @@ which is now called `prometheus_operator_spec_replicas` and also has the "contro
 The `prometheus_operator_triggered_total` metric now has a "controller" label as well and finally instruments the
 Alertmanager controller.
 
-For a full description see: https://github.com/coreos/prometheus-operator/pull/1984#issue-221139702
+For a full description see: https://github.com/zhonglin6666/prometheus-operator/pull/1984#issue-221139702
 
 In order to support multiple namespaces, the `--namespace` flag changed to `--namespaces`
 and accepts and comma-separated list of namespaces as a string.
@@ -107,7 +107,7 @@ Prometheus rules via K8s ConfigMaps. There are two migration paths:
    ConfigMaps to `PrometheusRule` resources.
 
 ```bash
-go get -u github.com/coreos/prometheus-operator/cmd/po-rule-migration
+go get -u github.com/zhonglin6666/prometheus-operator/cmd/po-rule-migration
 po-rule-migration \
 --rule-config-map=<path-to-config-map> \
 --rule-crds-destination=<path-to-rule-crd-destination>

@@ -1,5 +1,5 @@
 ## Alertmanagers to which alerts will be sent
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#alertmanagerendpoints
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#alertmanagerendpoints
 ##
 alertingEndpoints: []
 #   - name: ""
@@ -103,7 +103,7 @@ paused: false
 global:
   rbacEnable: true
   pspEnable: true
-  
+
   # Reference to one or more secrets to be used when pulling images
   imagePullSecrets: []
   #  - name: "image-pull-secret"
@@ -138,13 +138,13 @@ podMetadata:
   labels: {}
 
 ## The remote_read spec configuration for Prometheus.
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#remotereadspec
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#remotereadspec
 remoteRead: {}
   # remoteRead:
   #   - url: http://remote1/read
 
 ## The remote_write spec configuriation for Prometheus.
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#remotewritespec
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#remotewritespec
 remoteWrite: {}
   # remoteWrite:
   #   - url: http://remote1/push
@@ -169,7 +169,7 @@ routePrefix: /
 ## If unspecified, only the same namespace as the Prometheus object is in is used.
 ruleNamespaceSelector: {}
 ## Rules CRD selector
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/design.md
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/design.md
 ##
 ## 1. If `matchLabels` is used, `rules.additionalLabels` must contain all the labels from
 ##    `matchLabels` in order to be be matched by Prometheus
@@ -200,7 +200,7 @@ rules:
 
 ## List of Secrets in the same namespace as the Prometheus
 ## object, which shall be mounted into the Prometheus Pods.
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
 ##
 secrets: []
 
@@ -244,12 +244,12 @@ service:
   type: ClusterIP
 
 ## Service monitors selector
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/design.md
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/design.md
 ##
 serviceMonitorsSelector: {}
 
 ## ServiceMonitor CRDs to create & be scraped by the Prometheus instance.
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/service-monitor.md
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/service-monitor.md
 ##
 serviceMonitors: []
   ## Name of the ServiceMonitor to create
@@ -332,7 +332,7 @@ serviceMonitors: []
           # serverName: ""
 
 ## Prometheus StorageSpec for persistent data
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/user-guides/storage.md
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/user-guides/storage.md
 ##
 storageSpec: {}
 #  volumeClaimTemplate:
@@ -348,7 +348,7 @@ storageSpec: {}
 # prometheusRules: {}
 
 ## Prometheus AdditionalScrapeConfigs
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
 ##
 additionalScrapeConfigs: []
 # - job_name: "prometheus"
@@ -357,7 +357,7 @@ additionalScrapeConfigs: []
 #     - "localhost:9090"
 
 ## Prometheus AdditionalAlertManagerConfigs
-## Ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
+## Ref: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
 ##
 additionalAlertManagerConfigs: {}
 # static_configs:

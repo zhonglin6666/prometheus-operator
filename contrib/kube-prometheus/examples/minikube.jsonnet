@@ -40,7 +40,7 @@ local kp =
     },
     alertmanager+:: {
       alertmanager+: {
-        // Reference info: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#alertmanagerspec
+        // Reference info: https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#alertmanagerspec
         spec+: {
           externalUrl: 'http://192.168.99.100:30903',
 

@@ -19,10 +19,10 @@ package v1
 import (
 	time "time"
 
-	monitoring_v1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
-	internalinterfaces "github.com/coreos/prometheus-operator/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/coreos/prometheus-operator/pkg/client/listers/monitoring/v1"
-	versioned "github.com/coreos/prometheus-operator/pkg/client/versioned"
+	monitoring_v1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	internalinterfaces "github.com/zhonglin6666/prometheus-operator/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/zhonglin6666/prometheus-operator/pkg/client/listers/monitoring/v1"
+	versioned "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

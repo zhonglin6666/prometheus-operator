@@ -1,5 +1,5 @@
 repository:
-    path: github.com/coreos/prometheus-operator
+    path: github.com/zhonglin6666/prometheus-operator
 build:
     flags: -a -tags netgo
     binaries:

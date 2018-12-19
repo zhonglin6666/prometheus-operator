@@ -1,6 +1,6 @@
 # alertmanager
 
-Installs a [Prometheus](https://prometheus.io) Alertmanager instance using the CoreOS [prometheus-operator](https://github.com/coreos/prometheus-operator).
+Installs a [Prometheus](https://prometheus.io) Alertmanager instance using the CoreOS [prometheus-operator](https://github.com/zhonglin6666/prometheus-operator).
 
 ## TL;DR;
 
@@ -15,7 +15,7 @@ This chart bootstraps an [Alertmanager](https://github.com/prometheus/alertmanag
 
 ## Prerequisites
   - Kubernetes 1.4+ with Beta APIs & ThirdPartyResources enabled
-  - [prometheus-operator](https://github.com/coreos/prometheus-operator/blob/master/helm/prometheus-operator/README.md).
+  - [prometheus-operator](https://github.com/zhonglin6666/prometheus-operator/blob/master/helm/prometheus-operator/README.md).
 
 ## Installing the Chart
 

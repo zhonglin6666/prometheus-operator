@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	"github.com/blang/semver"
-	monitoringv1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
-	"github.com/coreos/prometheus-operator/pkg/k8sutil"
+	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	"github.com/zhonglin6666/prometheus-operator/pkg/k8sutil"
 	"github.com/pkg/errors"
 )
 
@@ -94,7 +94,7 @@ func makeStatefulSet(
 	// p is passed in by value, not by reference. But p contains references like
 	// to annotation map, that do not get copied on function invocation. Ensure to
 	// prevent side effects before editing p by creating a deep copy. For more
-	// details see https://github.com/coreos/prometheus-operator/issues/1659.
+	// details see https://github.com/zhonglin6666/prometheus-operator/issues/1659.
 	p = *p.DeepCopy()
 
 	// TODO(fabxc): is this the right point to inject defaults?

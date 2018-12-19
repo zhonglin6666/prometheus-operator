@@ -3,15 +3,15 @@ local kp = (import 'kube-prometheus/kube-prometheus.libsonnet') +
   _config+:: {
     namespace: 'monitoring',
 
-    // Reference info: https://github.com/coreos/prometheus-operator/blob/master/contrib/kube-prometheus/README.md#static-etcd-configuration
+    // Reference info: https://github.com/zhonglin6666/prometheus-operator/blob/master/contrib/kube-prometheus/README.md#static-etcd-configuration
     etcd+:: {
       // Configure this to be the IP(s) to scrape - i.e. your etcd node(s) (use commas to separate multiple values).
       ips: ['127.0.0.1'],
 
       // Reference info:
-      //  * https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#servicemonitorspec (has endpoints)
-      //  * https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#endpoint (has tlsConfig)
-      //  * https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#tlsconfig (has: caFile, certFile, keyFile, serverName, & insecureSkipVerify)
+      //  * https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#servicemonitorspec (has endpoints)
+      //  * https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#endpoint (has tlsConfig)
+      //  * https://github.com/zhonglin6666/prometheus-operator/blob/master/Documentation/api.md#tlsconfig (has: caFile, certFile, keyFile, serverName, & insecureSkipVerify)
 
       // Set these three variables to the fully qualified directory path on your work machine to the certificate files that are valid to scrape etcd metrics with (check the apiserver container).
       // Most likely these certificates are generated somewhere in an infrastructure repository, so using the jsonnet `importstr` function can

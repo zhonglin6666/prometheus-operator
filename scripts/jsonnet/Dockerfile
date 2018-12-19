@@ -12,7 +12,7 @@ RUN go get github.com/brancz/gojsontoyaml
 RUN go get github.com/campoy/embedmd
 RUN go get github.com/jsonnet-bundler/jsonnet-bundler/cmd/jb
 
-RUN mkdir -p /go/src/github.com/coreos/prometheus-operator
-WORKDIR /go/src/github.com/coreos/prometheus-operator
+RUN mkdir -p /go/src/github.com/zhonglin6666/prometheus-operator
+WORKDIR /go/src/github.com/zhonglin6666/prometheus-operator
 
 RUN chmod -R 777 /go

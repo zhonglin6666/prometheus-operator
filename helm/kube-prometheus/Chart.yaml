@@ -6,5 +6,5 @@ maintainers:
     email: gianrubio@gmail.com
 name: kube-prometheus
 sources:
-  - https://github.com/coreos/prometheus-operator
+  - https://github.com/zhonglin6666/prometheus-operator
 version: 0.0.105

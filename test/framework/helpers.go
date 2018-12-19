@@ -27,7 +27,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/coreos/prometheus-operator/pkg/k8sutil"
+	"github.com/zhonglin6666/prometheus-operator/pkg/k8sutil"
 	"github.com/pkg/errors"
 )
 

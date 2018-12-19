@@ -30,8 +30,8 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	monitoringclient "github.com/coreos/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
-	"github.com/coreos/prometheus-operator/pkg/k8sutil"
+	monitoringclient "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned/typed/monitoring/v1"
+	"github.com/zhonglin6666/prometheus-operator/pkg/k8sutil"
 
 	"github.com/pkg/errors"
 )

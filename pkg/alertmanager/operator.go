@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	monitoringv1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
-	monitoringclient "github.com/coreos/prometheus-operator/pkg/client/versioned"
-	"github.com/coreos/prometheus-operator/pkg/k8sutil"
-	"github.com/coreos/prometheus-operator/pkg/listwatch"
-	prometheusoperator "github.com/coreos/prometheus-operator/pkg/prometheus"
+	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	monitoringclient "github.com/zhonglin6666/prometheus-operator/pkg/client/versioned"
+	"github.com/zhonglin6666/prometheus-operator/pkg/k8sutil"
+	"github.com/zhonglin6666/prometheus-operator/pkg/listwatch"
+	prometheusoperator "github.com/zhonglin6666/prometheus-operator/pkg/prometheus"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

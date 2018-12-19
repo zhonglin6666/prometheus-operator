@@ -21,5 +21,5 @@ fi
 docker run \
     --rm \
     -u="$(id -u "$USER")":"$(id -g "$USER")" \
-    -v "${SCRIPTDIR}/..:/go/src/github.com/coreos/prometheus-operator${VOLUME_OPTIONS}" \
+    -v "${SCRIPTDIR}/..:/go/src/github.com/zhonglin6666/prometheus-operator${VOLUME_OPTIONS}" \
     po-jsonnet make ${MFLAGS[@]} generate

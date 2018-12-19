@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
-	monitoring "github.com/coreos/prometheus-operator/pkg/apis/monitoring"
-	monitoringv1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
-	k8sutil "github.com/coreos/prometheus-operator/pkg/k8sutil"
+	monitoring "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring"
+	monitoringv1 "github.com/zhonglin6666/prometheus-operator/pkg/apis/monitoring/v1"
+	k8sutil "github.com/zhonglin6666/prometheus-operator/pkg/k8sutil"
 
 	crdutils "github.com/ant31/crd-validation/pkg"
 	extensionsobj "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"

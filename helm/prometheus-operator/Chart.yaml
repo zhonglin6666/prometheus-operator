@@ -6,10 +6,10 @@ maintainers:
     email: gianrubio@gmail.com
 name: prometheus-operator
 sources:
-  - https://github.com/coreos/prometheus-operator
+  - https://github.com/zhonglin6666/prometheus-operator
 version: 0.0.29
 appVersion: "0.20.0"
-home: https://github.com/coreos/prometheus-operator
+home: https://github.com/zhonglin6666/prometheus-operator
 keywords:
 - operator
 - prometheus
